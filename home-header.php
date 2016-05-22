@@ -47,10 +47,10 @@
 			?>
 				<ul class="nav nav-tabs">
 						
-						<li><a class="brand" href="default.php"><img src="uploads/logo.jpeg" title="Logo" width="100" height="60" alt="Logo"></a></li>
+						<li><a class="brand" href="index.php"><img src="uploads/logo.jpeg" title="Logo" width="100" height="60" alt="Logo"></a></li>
 						<?php
 							foreach($pages as $row){
-								echo '<li><a href="default.php?page_id='.$row['page_id'].'">'.$row['title'].'</a></li>';
+								echo '<li><a href="index.php?page_id='.$row['page_id'].'">'.$row['title'].'</a></li>';
 							}
 						?>
 						<li><a href="admins.php">Control Panel</a></li>
@@ -62,9 +62,9 @@
 					?>
 					<ul class="nav nav-tabs">
 						<?php
-							echo '<li><a class="brand" href="default.php"><img src="uploads/logo.jpeg" title="Logo" width="100" height="60"></a></li>';
+							echo '<li><a class="brand" href="index.php"><img src="uploads/logo.jpeg" title="Logo" width="100" height="60"></a></li>';
 							foreach($pages as $row){
-								echo '<li><a href="default.php?page_id='.$row['page_id'].'">'.$row['title'].'</a></li>';
+								echo '<li><a href="index.php?page_id='.$row['page_id'].'">'.$row['title'].'</a></li>';
 							}
 						?>
 						<li><a href="register.php">Register</a></li>
