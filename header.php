@@ -22,11 +22,11 @@
 				if($_SESSION['user_id']){
 					?>
 					<ul class="nav nav-tabs">
-						<li><a class="brand" href="default.php"><img src="uploads/logo.jpeg" title="Logo" width="100" height="60" alt="Logo"></a></li>
+						<li><a class="brand" href="index.php"><img src="uploads/logo.jpeg" title="Logo" width="100" height="60" alt="Logo"></a></li>
 						<li><a href="admins.php">Admin</a></li>
 						<li><a href="pages.php">Pages</a></li>
 						<li><a href="logo.php">Logo</a></li>
-						<li><a href="default.php" target="_blank">Public Website</a></li>
+						<li><a href="index.php" target="_blank">Public Website</a></li>
 						<li><a href="logout.php">Log Out</a></li>						
 					<?php
 				}
